@@ -1,6 +1,7 @@
 import sys
 print('Length of sys.argv :', len(sys.argv))
 print('Argument(s)  :', str(sys.argv))
+
 import platform
 print('OS Platform  :', sys.platform)
 print('Python Version  :', platform.python_version())
